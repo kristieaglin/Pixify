@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root{
+    --grayBlue: #2A3B49;
+    --neonBlue: #7BFFE9;
+    --white: #FFFFFF;
+    --ltgray: #D9D9D9;
+    --black: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--white);
+}
+
+
+/*              HEADER             */
+
+header{
+    padding: 5px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grayBlue);
+}
+
+.pixify{
+    color: var(--neonBlue);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;  
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mode-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--neonBlue);
+    font-family: Montserrat;
+    font-size: 16px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+/*              MAIN                */
+
+.current-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-title{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+.current-name{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.current-img{
+    padding-top: 40px;
+    width: 75%;
+}
+
+.current-number{
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-btn{
+    margin: 40px 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: var(--grayBlue);
+    color: var(--neonBlue);
+    border: none;
+    cursor: pointer;
+}
